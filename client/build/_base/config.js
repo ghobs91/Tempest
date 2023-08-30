@@ -82,7 +82,6 @@ export default {
             'MAPBOX_API_KEY': '',
             'WORLDTIDES_API_KEY': '',
             'OWM_API_KEY': '',
-            'GA_TRACKING_ID': '',
             'SENTRY_DSN': '',
         }),
         

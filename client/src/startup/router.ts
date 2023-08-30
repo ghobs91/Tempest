@@ -45,11 +45,5 @@ export default function initialiseRouter(application: App) {
         next();
     });
 
-    if ('gtag' in window) {
-        router.afterEach(to => window.gtag('config', process.env.GA_TRACKING_ID, {
-            'page_path': to.path
-        }));
-    }
-
     return router;
 }
